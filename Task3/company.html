@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VECTOR Company Website</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+    }
+    .hero-section {
+    background: url('https://quangcaonhat.com/wp-content/uploads/2020/08/Untitled-7-1024x768.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+    font-weight: bold; /* Chữ in đậm */
+    background-color: rgba(0, 0, 0, 0.5); /* Nền nhạt hơn */
+    }
+
+    .about-us-section, .services-section, .team-section, .contact-section {
+      padding: 50px 0;
+    }
+    .service-item {
+      margin-bottom: 30px;
+    }
+    .service-item i {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+    .team-member {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .team-member img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">VECTOR Company</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <h1>Welcome to VECTOR Company</h1>
+      <p>Your trusted partner for all your needs</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="about-us-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ligula non velit malesuada consectetur. Integer in lorem at nulla volutpat consectetur. Proin vehicula libero nec bibendum congue.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-item">
+            <i class="fas fa-cogs"></i>
+            <h3>Service 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <i class="fas fa-chart-line"></i>
+            <h3>Service 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <i class="fas fa-users"></i>
+            <h3>Service 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team-section">
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="team-member">
+            <img src="https://img.freepik.com/premium-vector/businesswoman-avatar-face-portrait-modern-young-business-woman-head-circle-ceo-office-worker-jacket-profile-advisor-expert-girl-flat-vector-illustration-isolated-white-background_633472-1094.jpg" alt="Team Member">
+            <h3>Ngoc Anh</h3>
+            <p>CEO</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-member">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-iranian-women-illustration_23-2149856014.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1710547200&semt=ais" alt="Team Member">
+            <h3>Hoàng Thị Ngọc Ánh </h3>
+            <p>CTO</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-member">
+            <img src="https://lendahandindia.org/wp-content/uploads/2021/10/avatar-female-400x400.png" alt="Team Member">
+            <h3>Ngọc Ánh Hoàng Thị </h3>
+            <p>COO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
