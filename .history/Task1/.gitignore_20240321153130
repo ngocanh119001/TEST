@@ -1,0 +1,7 @@
+.env
+/node_modules
+/public/
+test.js
+yarn.lock
+/.history
+package-lock.json
